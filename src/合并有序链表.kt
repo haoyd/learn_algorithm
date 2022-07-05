@@ -1,4 +1,4 @@
-object MergeSortedLink {
+object 合并有序链表 {
 
     @JvmStatic
     fun main(args: Array<String>) {

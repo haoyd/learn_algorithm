@@ -1,7 +1,7 @@
 /**
  * 二分查找
  */
-object TwoSearch {
+object 二分查找 {
 
     @JvmStatic
     fun main(args: Array<String>) {

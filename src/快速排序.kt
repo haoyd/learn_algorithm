@@ -1,4 +1,4 @@
-object QuickSort{
+object 快速排序{
 
     @JvmStatic
     fun main(args: Array<String>) {
