@@ -14,8 +14,6 @@ object 二分查找换序位置 {
         var end = nums.size - 1
 
         val startValue = nums[0]
-        val endValue = nums[end]
-        val resorted = startValue > endValue
 
         while (start <= end) {
             val middle = (end - start) / 2 + start
