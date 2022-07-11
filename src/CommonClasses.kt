@@ -22,4 +22,7 @@ class BinTreeNode(
     val value: Int,
     val left: BinTreeNode? = null,
     val right: BinTreeNode? = null
-)
+) {
+    var hasLeft = left != null
+    var hasRight = right != null
+}
