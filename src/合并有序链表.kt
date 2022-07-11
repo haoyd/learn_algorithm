@@ -2,13 +2,13 @@ object 合并有序链表 {
 
     @JvmStatic
     fun main(args: Array<String>) {
-        val l1 = ListNode(1)
-        l1.next = ListNode(2)
-        l1.next!!.next = ListNode(3)
+        val l1 = SingleLinkNode(1)
+        l1.next = SingleLinkNode(2)
+        l1.next!!.next = SingleLinkNode(3)
 
-        val l2 = ListNode(2)
-        l2.next = ListNode(3)
-        l2.next!!.next = ListNode(4)
+        val l2 = SingleLinkNode(2)
+        l2.next = SingleLinkNode(3)
+        l2.next!!.next = SingleLinkNode(4)
 
         var result = mergeTwoList(l1, l2)
         while (result != null) {
@@ -23,11 +23,11 @@ object 合并有序链表 {
      * 2>3>4
      * 1>2>2>3>3>4
      */
-    private fun mergeTwoList(l1: ListNode, l2: ListNode): ListNode? {
-        var index1: ListNode? = l1          // l1 指针
-        var index2: ListNode? = l2          // l2 指针
-        var head: ListNode? = null          // 头部指针
-        var merger: ListNode? = null        // 用来操作排序
+    private fun mergeTwoList(l1: SingleLinkNode, l2: SingleLinkNode): SingleLinkNode? {
+        var index1: SingleLinkNode? = l1          // l1 指针
+        var index2: SingleLinkNode? = l2          // l2 指针
+        var head: SingleLinkNode? = null          // 头部指针
+        var merger: SingleLinkNode? = null        // 用来操作排序
 
         while (index1 != null || index2 != null) {
             /**
@@ -93,9 +93,4 @@ object 合并有序链表 {
 
         return head
     }
-
-    class ListNode(
-        var value: Int = 0,
-        var next: ListNode? = null
-    )
 }
