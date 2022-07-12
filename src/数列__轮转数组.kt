@@ -6,7 +6,7 @@
     向右轮转 2 步: [6,7,1,2,3,4,5]
     向右轮转 3 步: [5,6,7,1,2,3,4]
  */
-object 轮转数组 {
+object 数列__轮转数组 {
 
     @JvmStatic
     fun main(args: Array<String>) {

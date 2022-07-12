@@ -1,7 +1,7 @@
 /**
  * 找到最长连续字符
  */
-object 找到连续的字符 {
+object 字符__找到连续的字符 {
 
     @JvmStatic
     fun main(args: Array<String>) {

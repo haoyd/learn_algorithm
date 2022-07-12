@@ -2,7 +2,7 @@
  * 输入：s = ['h','e','l','l','o']
  * 输出：['o','l','l','e','h']
  */
-object 反转字符串 {
+object 字符__字符串反转 {
     @JvmStatic
     fun main(args: Array<String>) {
         val arr = charArrayOf('h', 'e', 'l', 'l', 'o')

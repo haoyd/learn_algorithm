@@ -4,7 +4,7 @@ import java.lang.StringBuilder
  * 输入： s = "God Ding"
  * 输出："doG gniD"
  */
-object 反转字符串中的单词 {
+object 字符__反转字符串中的单词 {
     @JvmStatic
     fun main(args: Array<String>) {
 

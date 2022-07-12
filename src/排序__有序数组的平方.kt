@@ -3,7 +3,7 @@
  * 输入：nums = [-4,-1,0,3,10]
  * 输出：[0,1,9,16,100]
  */
-object 有序数组的平方 {
+object 排序__有序数组的平方 {
 
     @JvmStatic
     fun main(args: Array<String>) {

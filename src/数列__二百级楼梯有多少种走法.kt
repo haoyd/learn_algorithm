@@ -1,7 +1,7 @@
 /**
  * 200 级楼梯，每次能上一级或两级台阶，有多少种走法
  */
-object 二百级楼梯有多少种走法 {
+object 数列__二百级楼梯有多少种走法 {
 
     @JvmStatic
     fun main(args: Array<String>) {

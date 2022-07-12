@@ -1,7 +1,7 @@
 /**
- * 二分查找
+ * 查找__二分查找
  */
-object 查找插入的位置 {
+object 查找__查找插入的位置 {
 
     @JvmStatic
     fun main(args: Array<String>) {

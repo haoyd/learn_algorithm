@@ -1,4 +1,4 @@
-object 快速排序{
+object 排序__快速排序{
 
     @JvmStatic
     fun main(args: Array<String>) {

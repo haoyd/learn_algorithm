@@ -1,6 +1,6 @@
 import java.util.*
 
-object 二叉树遍历 {
+object 二叉__遍历树 {
     @JvmStatic
     fun main(args: Array<String>) {
         /**

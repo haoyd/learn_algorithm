@@ -1,5 +1,5 @@
 
-object 二分查找换序位置 {
+object 查找__二分查找换序位置 {
 
     @JvmStatic
     fun main(args: Array<String>) {

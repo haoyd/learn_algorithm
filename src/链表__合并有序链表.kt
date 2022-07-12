@@ -1,4 +1,4 @@
-object 合并有序链表 {
+object 链表__合并有序链表 {
 
     @JvmStatic
     fun main(args: Array<String>) {
@@ -18,7 +18,7 @@ object 合并有序链表 {
     }
 
     /**
-     * 合并有序链表
+     * 链表__合并有序链表
      * 1>2>3
      * 2>3>4
      * 1>2>2>3>3>4
